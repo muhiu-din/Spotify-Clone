@@ -218,7 +218,12 @@ img{
     left: 30vw;
     bottom: -6vw;
     border-radius: 4%;
+    cursor: pointer;
+    transition: all ease 0.4s;
     background: #181717;
+}
+.pic:hover{
+  background-color: #252525;
 }
 .dp img{
   width: 50px;

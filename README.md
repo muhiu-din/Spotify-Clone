@@ -13,19 +13,19 @@ Displays a collection of songs.
 Each song links to its respective YouTube URL for easy playback.
 Premium Page
 
-A dedicated page showcasing static content about premium subscriptions.
+This page is just made for fun and doesnot have anything special.
 Side Bar Navigation
 
-Includes links to Privacy and Cookies pages, which redirect to the official Spotify pages.
+Includes links to Privacy and Cookies pages, which redirect to the official Spotify pages adn other non functional buttons.
 Navigation Bar
 
-Includes a Support link that redirects to Spotify's official support page.
+Includes a Support link that redirects to Spotify's official support page and other non-functional buttons.
 📂 Project Structure
 Sign-In Page: /signin.html
 Home Page: /index.html
 Premium Page: /premium.html
-Sidebar: Includes links to Privacy and Cookies pages.
-Nav Bar: Includes a Support link.
+Sidebar: Includes links to Privacy and Cookies pages and other non-functional buttons.
+Nav Bar: Includes a Support link and other non-functional buttons.
 ⚙️ Technologies Used
 HTML5: For the structure of the app.
 CSS3: For styling and layout.
@@ -34,7 +34,7 @@ JavaScript: For basic interactivity and navigation.
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/yourusername/spotify-clone.git  
+git clone https://github.com/muhiu-din/spotify-clone.git  
 cd spotify-clone  
 Open index.html in any modern web browser to view the app locally.
 🎯 Limitations

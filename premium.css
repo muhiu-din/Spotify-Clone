@@ -100,7 +100,12 @@
 
   .topbar .navbar {
     display: flex;
-    margin-left: 43%;
+    margin-left: 48%;
+  }
+  .topbar .navbar .text{
+    position: relative;
+    top: 12px;
+    left: 14px;
   }
   .topbar .navbar ul {
     list-style: none;
@@ -214,4 +219,13 @@ img{
     bottom: -6vw;
     border-radius: 4%;
     background: #181717;
+}
+.dp img{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  bottom: 2px;
+}
+.name h3{
+color: #989898;
 }

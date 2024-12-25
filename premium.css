@@ -83,8 +83,6 @@
   .topbar {
     display: flex;
     justify-content: space-between;
-    position: absolute;
-    left: 52vw;
     background-color: #101010;
     padding: 14px 30px;
   }
@@ -99,10 +97,10 @@
     background-color: #090909;
     margin-right: 10px;
   }
-/* Kamlesh Mahar */
+
   .topbar .navbar {
     display: flex;
-    align-items: center;
+    margin-left: 43%;
   }
   .topbar .navbar ul {
     list-style: none;
@@ -204,6 +202,16 @@ img{
     width: 250px;
     length: 250px;
     position: relative;
-    left: 31vw;
+    left: 2vw;
+    bottom: -20px;
     border-radius: 7px;
+}
+.pic {
+  width: 300px;
+   height: 330px;
+    position: relative;
+    left: 30vw;
+    bottom: -6vw;
+    border-radius: 4%;
+    background: #181717;
 }

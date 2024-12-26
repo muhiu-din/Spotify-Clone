@@ -19,6 +19,7 @@
   .sidebar .logo img {
     position: relative;
     left: 0;
+    bottom: 2px;
     width: 130px;
   }
   .sidebar .navigation ul {

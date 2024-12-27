@@ -1,201 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify-userprofile</title>
   <link rel="stylesheet" href="profile.css">
-  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+
 </head>
-
 <body>
-  <div class="sidebar">
-    <div class="logo">
-      <a href="#">
-        <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Logo" />
-      </a>
+  <nav class="navbar">
+    <div class="nav-logo">
+        <a href="index.html"> 
+          <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png"alt="Logo">
+        </a>
+      
+      
+    </div>
+      
+    <div class="nav-options">
+      <a href="premium.html" class="premium-link"><span>Premium</span></a>
+      <a href="https://support.spotify.com/pk-en/" class="install-link" ><span>Support</span></a>
+      <a href="nfrs.html" id="Download"><span>Download</span></a>
+      <a href="#" id="bell">|</a>
+     <a href="#"> <img src="songs/maam_prev_ui.png" alt="Profile" class="profile-pic"></a>
+    </div>
+  </nav>  
+
+
+
+  <div class="profile-section">
+
+    <div class="profile-header">
+      <img
+        src="songs/maam_prev_ui.png" alt="Profile Picture" class="profile-image"
+      />
+      <div class="profile-details">
+        <p class="profile-subtitle">Profile</p>
+        <h1 class="profile-name">Asra Masood</h1>
+        <p class="profile-stats">2 Public Playlists  <span id="Following"  ><a href="#">  • 3 Following </span> </a>
+            </p>
+
+      </div>
     </div>
 
-    <div class="navigation">
-      <ul>
-        <li>
-          <a href="#">
-            <span class="fa fa-home"></span>
-            <a href="index.html"><span>Home</span></a>
-          </a>
-        </li>
+    <div class="top-artists-section">
+      <h2><a href="#" id="artisthov"> Top artists this month</h2></a>
+      <p class="subtitle">Only visible to you</p>
 
-        <li>
-          <a href="#">
-            <span class="fa fa-search"></span>
-            <a href="nfrs.html"><span>Search</span></a>
-          </a>
-        </li>
 
-        <li>
-          <a href="#">
-            <span class="fa fas fa-book"></span>
-            <a href="nfrs.html"><span>Your Library</span></a>
-          </a>
-        </li>
-      </ul>
-    </div>
+      <div class="artist-list">
+        <div class="artist">
+          <a href="#"><img 
+            src="https://i.pinimg.com/236x/27/e3/d5/27e3d5bf89f9bce9ff9bcbea47c3b5d8.jpg" alt="Artist 1" class="artist-image"></a><!--link-->
+          <p><a href="#"> Halsey</p></a>
+          <p class="artist-role">Artist</p> 
+        </div>
 
-    <div class="navigation">
-      <ul>
-        <li>
-          <a href="#">
-            <span class="fa fas fa-plus-square"></span>
-            <a href="nfrs.html"><span>Create Playlist</span></a>
-          </a>
-        </li>
-
-        <li>
-          <a href="#">
-            <span class="fa fas fa-heart"></span>
-            <a href="liked.html"><span>Liked Songs</span></a>
-          </a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="policies">
-      <ul>
-        <li>
-          <a href="https://www.spotify.com/pk-en/legal/cookies-policy/">Cookies</a>
-        </li>
-        <li>
-          <a href="https://www.spotify.com/pk-en/legal/privacy-policy/">Privacy</a>
-        </li>
-      </ul>
+        <div class="artist">
+          <a href="#"><img src="https://i.pinimg.com/236x/51/20/87/512087b451fc4ffd1ca9fbe34ba47177.jpg"alt="Artist 2"class="artist-image"></a> <!-- link-->
+          <p><a href="#"> Anuv Jain</p></a>
+          <p class="artist-role">Artist</p>
+        </div>
+      </div>
     </div>
   </div>
 
-  <div class="main-container">
-    <div class="topbar">
-      <div class="prev-next-buttons">
-        <button type="button" class="fa fas fa-chevron-left"></button>
-        <button type="button" class="fa fas fa-chevron-right"></button>
-      </div>
+  <div class="top-picks-section"></div>
 
-      <div class="navbar">
-        <ul>
-          <li>
-            <a href="premium.html">Premium</a>
-          </li>
-          <li>
-            <a href="https://support.spotify.com/pk-en/">Support</a>
-          </li>
-          <li>
-            <a href="nfrs.html">Download</a>
-          </li>
-          <li class="divider">|</li>
-          <li class="name">
-            <a href="#"><h3>Asra</h3></a>
-          </li>
+  <div class="dashboard">
+    <section class="top-tracks">
+        <h2>Top tracks this month</h2>
+        <p>Only visible to you</p>
+        <ul class="tracks-list">
+            <li class="track">
+                <span class="track-number">1</span>
+                <span class="track-image" ><img src ="https://i.pinimg.com/236x/b1/a9/f0/b1a9f0b967fc2d115280b6aef6b60a0d.jpg" alt="img" height="40px"></span>
+                <span class="track-name"> You and Me</span>
+                
+                <span class="track-duration">✅ㅤㅤㅤㅤ1:11</span>
+                
+            </li>   
+            <li class="track">
+                <span class="track-number">2</span>
+                <span class="track-image"  ><img src="https://i.pinimg.com/736x/10/68/ce/1068ce8c86a8375aacf46c32c09d217e.jpg" alt="img" height="40px"></span>
+                <span class="track-name">Sometimes</span>
+                <span class="track-duration" id="Sometimes">✅ㅤㅤㅤㅤ3:16</span>
+            </li>
+            <li class="track">
+                <span class="track-number">3</span>
+                <span class="track-image"  ><img src="https://i.pinimg.com/474x/43/cf/1d/43cf1defea274505cc3ed4d56ef800c0.jpg" alt="img" height="40px"></span>
+                <span class="track-name">Look at Me Now</span>
+                <span class="track-duration" id="look">✅ㅤㅤㅤㅤ2:42</span>
+            </li>
+            <li class="track">
+              
+                <span class="track-number">4</span>
+                <span class="track-image"  ><img src="https://i.pinimg.com/236x/2e/4d/77/2e4d77443eb552bac7035c010e707cef.jpg" alt="img" height="40px"></span>
+                <span class="track-name">Let Me Down Slowly X Aaya Na Tu - LoFi</span>
+                <span class="track-duration" id="Let">✅ㅤㅤㅤㅤ3:00</span>
+            </li>
         </ul>
-        <span class="dp">
-          <img src="songs/maam_prev_ui.png" alt="dp">
-        </span>
-      </div>
-    </div>
-    <div class="maam">
-        <img src="songs/maam_prev_ui.png" alt="dp">
-    <div class="details">
-        <div class="profile">
-            <h5>Profile</h5>
-        </div>
-        <div class="name">
-            <h1>Asra Masood</h1>
-        </div>
-        <ul>
-            <li class="one">5 Public Playlists &nbsp;</li>
-            <li class="two"> 12 Following</li>
-        </ul>
-    </div>
-</div>
-<div class="spotify-playlists">
-    <h2>Top artists this month</h2>
-    <h5>Only visible to you</h5>
+    </section>
 
-    <div class="list">
-      <div class="item">
-        <img src="songs/ys.png" />
-        <div >
-          <a href="https://www.youtube.com/watch?v=DRjlG080UdM&list=PLgk6L0Eeav1haj9aTFUVJa-MeG9-4JMrO"><span
-              ></span></a>
-        </div>
-        <h4>Youngstunners</h4>
-        <p>Youngstunners was on top of the...</p>
-      </div>
-
-      <div class="item">
-        <img src="albums cover/terrible.png" />
-        <div class="play">
-          <a href="https://www.youtube.com/watch?v=e-XYQjM2RQ8&list=PLmUgeKw7vSS7RUJ-b47zbYJvBch_vuG1k"><span
-              class="fa fa-play"></span></a>
-        </div>
-        <h4>My Terrible Mind</h4>
-        <p>New Music from Talha Anjum, Bohemia an...</p>
-      </div>
-
-    </div>
-  </div>
-
-    <div class="spotify-playlists">
+    <section class="public-playlists">
       <h2>Public Playlists</h2>
-
-      <div class="list">
-        <div class="item">
-          <img src="albums cover/shikwa.png" />
-          <div class="play">
-            <a href="https://www.youtube.com/watch?v=DRjlG080UdM&list=PLgk6L0Eeav1haj9aTFUVJa-MeG9-4JMrO"><span
-                class="fa fa-play"></span></a>
+      <div class="playlists">
+          <div class="playlist">
+              <img src="https://i.pinimg.com/236x/35/04/52/3504526973e41e4ff309191b10955958.jpg" alt="Temp Playlist" class="playlist-image">
+              <p>Trip</p>
           </div>
-          <h4>Today's Top Hits</h4>
-          <p>Talhah Yunus was on top of the...</p>
-        </div>
-
-        <div class="item">
-          <img src="albums cover/terrible.png" />
-          <div class="play">
-            <a href="https://www.youtube.com/watch?v=e-XYQjM2RQ8&list=PLmUgeKw7vSS7RUJ-b47zbYJvBch_vuG1k"><span
-                class="fa fa-play"></span></a>
+          <div class="playlist">
+              <img src="https://i.pinimg.com/474x/27/90/cd/2790cd1bc6bf5ae308cfb1d8daa5205f.jpg" alt="Song Playlist" class="playlist-image">
+              <p>Study</p>
           </div>
-          <h4>My Terrible Mind</h4>
-          <p>New Music from Talha Anjum, Bohemia an...</p>
-        </div>
-
-        <div class="item">
-          <img src="albums cover/khanabadosh.png" />
-          <div class="play">
-            <a href="https://www.youtube.com/watch?v=JgFQcRcWRag&list=PLK_X-zjWMNPLrTrDsYAPCew83DUSqyG0C"><span
-                class="fa fa-play"></span></a>
-          </div>
-          <h4>Album of year</h4>
-          <p>The largest album of 2019:...</p>
-        </div>
-
-        <div class="item">
-          <img src="albums cover/rapstar.png" />
-          <div class="play">
-            <a href="https://www.youtube.com/watch?v=Jz_7xZV0Ejk&list=PLdtRMZzEIrjtUPP_NlCunPPSAa37JGV8a"><span
-                class="fa fa-play"></span></a>
-          </div>
-          <h4>Bohemia's hits</h4>
-          <p>#Asli_dhh songs that continue t...</p>
-        </div>
-
-        <div class="item">
-          <img src="albums cover/nfak.png" />
-          <div class="play">
-            <a href="https://www.youtube.com/watch?v=u_47iOzeVsA&list=PLeHcbwsMVRm4RVm8cm9gbgCuivb_HKcar"><span
-                class="fa fa-play"></span></a>
-          </div>
-          <h4>Qwallis</h4>
-          <p>Experience the soothing voice of NFAK and...</p>
-        </div>
-
-
       </div>
+  </section>
+
+  <section class="Following-art">
+    <h2>Artist you follow</h2>
+    <div class="artists">
+       <div class="artistt"><a href="https://www.youtube.com/@YoungStunners"> 
+          <img src="https://i.pinimg.com/236x/eb/d5/24/ebd5248f9be3254cbc323f0e24775f81.jpg" class="artist-img-follow"></a>
+          <p><div id="ys"> Young stunners</p></div>
+       </div>
+       <div class="artistt"><a href="https://www.youtube.com/channel/UCOCgB3xd-B-1qAm-hR9OLrA">
+          <img src="https://i.pinimg.com/236x/a8/5a/b1/a85ab1f012cf5bf12d31bb46549beece.jpg" class="artist-img-follow"></a>
+          <p>Halsey</p>
+       </div>
+       <div class="artistt"><a href="https://www.youtube.com/channel/UCtFOW7jJXChfFNoucRFqRmw">
+          <img src="https://i.pinimg.com/236x/de/51/34/de51343937840d07ca11216889a8d2ee.jpg" class="artist-img-follow"></a>
+          <p><div id="as"> Arjit singh</p></div>
+       </div>
     </div>
+
+
+
+
+  </section>
+    
+</div>
+</body>
+</html>

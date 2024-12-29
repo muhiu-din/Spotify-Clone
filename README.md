@@ -24,12 +24,14 @@ Includes a Support link that redirects to Spotify's official support page and ot
 Sign-In Page: /signin.html
 Home Page: /index.html
 Premium Page: /premium.html
-Sidebar: Includes links to Privacy and Cookies pages and other non-functional buttons.
-Nav Bar: Includes a Support link and other non-functional buttons.
+Liked page: /liked.html
+Others : /nfrs.html
+Profile : /profile.html
+Sidebar: Includes links to Privacy and Cookies pages and other non-functional buttons redirecting to nfrs.html.
+Nav Bar: Includes a Support link,profile page and other non-functional buttons redirecting to nfrs.
 ⚙️ Technologies Used
 HTML5: For the structure of the app.
 CSS3: For styling and layout.
-JavaScript: For basic interactivity and navigation.
 🛠 How to Run
 Clone the repository:
 bash
